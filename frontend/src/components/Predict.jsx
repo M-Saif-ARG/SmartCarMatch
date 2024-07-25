@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 const Suggest = () => {
   const iframeRef = useRef(null);
-  const externalLink = "https://carsuggestion-3aqvxoxvmsw2hvkj6fnkeh.streamlit.app/?someparam=value&embedded=true"; // Define your external link directly
+  const externalLink = "https://predic3kproerugdnrvl7znfswsj.streamlit.app/?someparam=value&embedded=true"; // Define your external link directly
 
   return (
     <div className="app-container">
