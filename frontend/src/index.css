@@ -257,3 +257,51 @@ footer p {
 }
 
 
+/* chat button */
+.chat-icon-container {
+    position: absolute; 
+    bottom: 1rem;
+    right: 5%;
+    cursor: pointer;
+    z-index: 1001; 
+}
+
+.chat-icon {
+    width: 5rem; 
+    height: auto; 
+    margin-bottom: 5rem;
+    right: 1%;
+}
+
+.chat-window {
+    position: absolute;
+    bottom: 10rem; 
+    right: 1%; 
+    width: 45vw; 
+    height: 70vh;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-right: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .chat-icon-container {
+        bottom: 2rem; 
+        right: 2%;
+    }
+
+    .chat-icon {
+        width: 4rem; 
+    }
+
+    .chat-window {
+        bottom: 10%; 
+        width: 80%;
+        height: 70vh;
+        margin-right: 5%;
+    }
+}
