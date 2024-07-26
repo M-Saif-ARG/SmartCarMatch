@@ -9,6 +9,7 @@ import Brands from './components/Brands';
 import Error from './components/Error';
 import Suggest from './components/Suggest';
 import Predict from './components/Predict';
+import Rent from './components/Rent';
 const App = () => {
 
 
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/brands" element={<Brands />}></Route>
           <Route path="/suggest" element={<Suggest />}></Route>
           <Route path="/predict" element={<Predict />}></Route>
+          <Route path="/rent" element={<Rent />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
         <Footer />
