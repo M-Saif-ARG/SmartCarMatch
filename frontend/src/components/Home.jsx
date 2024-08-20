@@ -67,7 +67,7 @@ const Home = () => {
             {showChatWindow && (
                 <div className="chat-window">
                     <iframe
-                        src="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=cbed452d-aff1-4944-9f07-280a82a3aa21"
+                        src="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=89fe4787-0f95-4b03-8efd-3607ae51ccf8"
                         title="Chat Window"
                         width="100%"
                         height="100%"
